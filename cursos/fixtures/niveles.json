@@ -1,0 +1,8 @@
+[
+    {"model": "cursos.nivel", "pk": 1, "fields": {"codigo": "A1", "nombre": "Principiante", "descripcion": "Comprendo y uso expresiones cotidianas de uso muy frecuente.", "orden": 1}},
+    {"model": "cursos.nivel", "pk": 2, "fields": {"codigo": "A2", "nombre": "Básico", "descripcion": "Comprendo frases y expresiones de uso frecuente.", "orden": 2}},
+    {"model": "cursos.nivel", "pk": 3, "fields": {"codigo": "B1", "nombre": "Intermedio", "descripcion": "Comprendo los puntos principales de textos claros.", "orden": 3}},
+    {"model": "cursos.nivel", "pk": 4, "fields": {"codigo": "B2", "nombre": "Intermedio Alto", "descripcion": "Entiendo las ideas principales de textos complejos.", "orden": 4}},
+    {"model": "cursos.nivel", "pk": 5, "fields": {"codigo": "C1", "nombre": "Avanzado", "descripcion": "Comprendo textos extensos y con sentido implícito.", "orden": 5}},
+    {"model": "cursos.nivel", "pk": 6, "fields": {"codigo": "C2", "nombre": "Maestría", "descripcion": "Comprendo con facilidad prácticamente todo lo que oigo o leo.", "orden": 6}}
+]

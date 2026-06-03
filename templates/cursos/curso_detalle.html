@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ curso.titulo }} - LMS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-4">
+        <h1>{{ curso.titulo }}</h1>
+        <p>{{ curso.descripcion }}</p>
+        <h3>Lecciones</h3>
+        <ul>
+            {% for leccion in curso.lecciones.all %}
+            <li>
+                <a href="{% url 'cursos:leccion_detalle' curso.slug leccion.id %}">
+                    {{ leccion.titulo }}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+        <a href="/">Volver</a>
+    </div>
+</body>
+</html>
